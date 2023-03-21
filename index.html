@@ -2,6 +2,7 @@
 <html>
 <head>
     <link rel="stylesheet" href="./src/style.css">
+    <script src="./src/script.js"></script>
 </head>
 
 <body>
@@ -10,9 +11,9 @@
     <h2>Waar heb je nu op geklikt?</h2>
     <p>Het scannen van willekeurige QR codes kan gevaarlijk zijn en deze site lijkt onveilig, weet je zeker dat je wil doorgaan?</p>
     <label class="container">Accepteer de gevaren om door te gaan
-        <input type="checkbox">
+        <input id="checkbox" type="checkbox">
         <span class="checkmark"></span>
       </label>
-    <input type="button" class="button" value="Doorgaan" onclick="msg()">
+    <input type="button" class="button" value="Doorgaan" onclick="buttonClick()">
 </body>
 </html>
